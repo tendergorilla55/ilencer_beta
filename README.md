@@ -1,24 +1,20 @@
-# README
+# RegistrationFlow
+* SignUp
+facebook / sms / google / mail
+* Choose Groups
+big category / middle category
+* select middle category
+meet the Community
+* becom someone's buddy
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# HomePage
+* Trending / Explore
+new comment / select the middle category
+* Groups / Private message
+* Ask a question
+select the group and ask question
+* notion
+* my profile
+about / contributions / connections
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Table Design
