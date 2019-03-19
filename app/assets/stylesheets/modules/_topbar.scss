@@ -1,0 +1,21 @@
+.topbar {
+  border-bottom: 1px solid $light_gray;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.global {
+  &-nav {
+    border-bottom: 1px solid $light_gray;
+    height: 46px;
+    position: relative;
+    width: 100%;
+    &-inner {
+      background-color: $purple;
+      height: 46px;
+    }
+  }
+}
