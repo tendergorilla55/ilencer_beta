@@ -2,3 +2,12 @@
   .global-nav
     .global-nav-inner
       .container
+        .global-menu-wrapper
+          %p.topbar-logo
+            = link_to root_path do
+              = image_tag 'favicon.png'
+        .global-menu
+          %ul
+            %li.global-menu-icon
+              = fa_icon 'twitter'
+              = link_to 'ホーム', root_path

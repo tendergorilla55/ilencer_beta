@@ -1,0 +1,14 @@
+$breakpoint-min: 938px;
+$breakpoint-max: 1190px;
+
+@mixin min {
+  @media screen and (max-width: $breakpoint-min) {
+    @content;
+  }
+}
+
+@mixin max {
+  @media screen and (max-width: $breakpoint-max) {
+    @content;
+  }
+}
