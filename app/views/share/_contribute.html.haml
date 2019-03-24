@@ -1,16 +1,17 @@
 .question
   .question-select
     %ul.question-header 質問したいグループは？
-    %li メンタルケア
-    %li 妊娠
-    %li 子育て
-    %li 転職
+    %button メンタルケア
+    %button 妊娠
+    %button 子育て
+    %button 家族
+    %button 転職
     .question-select-other
       = fa_icon "angle-right"
       他のグループを探す
   .question-main
     .question-header
       %p 質問したいこと
-      %textarea.question-content
-  .question-button
+      %textarea.question-content{placeholder: '聞いてみたいことを書いてください'}
+  = link_to demos_path, class: 'question-button' do
     質問する

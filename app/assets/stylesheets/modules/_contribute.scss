@@ -8,7 +8,7 @@
   &-select {
     @include clearfix;
     margin-bottom: 10px;
-    & li {
+    & button {
       font-size: 16px;
       list-style: none;
       padding: 5px;
@@ -18,6 +18,9 @@
       background-color: $purple;
       border: 1px solid $purple;
       border-radius: 5px;
+      &:hover {
+        opacity: 0.9;
+      }
     }
     &-other {
       float: right;
