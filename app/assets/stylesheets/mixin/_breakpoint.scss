@@ -1,5 +1,6 @@
 $breakpoint-min: 938px;
 $breakpoint-max: 1190px;
+$breakpoint-large: 1236px;
 
 @mixin min {
   @media screen and (max-width: $breakpoint-min) {
@@ -9,6 +10,12 @@ $breakpoint-max: 1190px;
 
 @mixin max {
   @media screen and (max-width: $breakpoint-max) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media screen and (min-width: $breakpoint-large) {
     @content;
   }
 }

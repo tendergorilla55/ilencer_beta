@@ -1,0 +1,76 @@
+.content {
+  @include clearfix;
+  padding: 56px 14px 15px;
+  position: relative;
+  margin: 0 auto;
+  width: 918px;
+  min-height: 100vh;
+  @include large {
+    width: 1190px;
+  }
+  &-main {
+    float: right;
+    width: 590px;
+    @include large {
+      float: left;
+      margin: 0 10px;
+    }
+  }
+  &-trending {
+    @include clearfix;
+    border: 1px solid $light_gray;
+    padding: 10px 12px;
+    background-color: $white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    &-icon {
+      float: left;
+      background-color: $white;
+      border-radius: 50%;
+      padding: 1px;
+      & img {
+        border-radius: 50%;
+        height: 36px;
+        width: 36px;
+      }
+    }
+    &-name {
+      margin-left: 48px;
+      margin-bottom: 5px;
+      padding: 2px;
+      font-size: 14px;
+    }
+    &-group {
+      margin-left: 56px;
+      font-size: 12px;
+      color: $gray;
+      &-name {
+        display: inline-block;
+        font-weight: bold;
+      }
+    }
+    &-time {
+      float: right;
+    }
+    &-message {
+      margin: 15px 15px;
+      font-size: 14px;
+    }
+  }
+  &-footer {
+    color: $gray;
+    margin-left: 25px;
+    font-size: 14px;
+    & i {
+      margin-right: 10px;
+      font-size: 1.2em;
+    }
+    &-heart{
+      float: left;
+    }
+    &-message {
+      float: left;
+      margin-left: 35px;
+    }
+  }
+}

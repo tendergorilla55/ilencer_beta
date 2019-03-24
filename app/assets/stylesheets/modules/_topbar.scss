@@ -36,6 +36,11 @@
       text-align: center;
       width: auto;
     }
+    @include large {
+      .container {
+        max-width: 1190px;
+      }
+    }
     @include max {
       .container {
         min-width: 590px;
