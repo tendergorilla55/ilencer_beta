@@ -65,9 +65,12 @@
       line-height: 46px;
       float: left;
       & p {
-        margin-left: 3px;
+        margin-left: 5px;
         float: right;
       }
+    }
+    &-right {
+      float: right
     }
   }
 }
