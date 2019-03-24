@@ -64,9 +64,19 @@
       margin-left: 25px;
       line-height: 46px;
       float: left;
+      &:hover {
+        border-bottom: 2px solid $purple;
+      }
+      & i {
+        color: $gray;
+      }
       & p {
         margin-left: 5px;
         float: right;
+        color: $gray;
+        &:hover {
+          color: $purple;
+        }
       }
     }
     &-right {
