@@ -1,4 +1,5 @@
 .question {
+    @include clearfix;
   border: 1px solid $light_gray;
   padding: 10px 12px;
   background-color: $light_purple;
@@ -37,5 +38,16 @@
     border-radius: 10px;
     border: 1px solid $purple;
     height: 75px;
+  }
+  &-main {
+    margin-bottom: 10px;
+  }
+  &-button {
+    float: right;
+    font-size: 14px;
+    color: $white;
+    background-color: $purple;
+    padding: 10px 15px;
+    border-radius: 34px;
   }
 }
